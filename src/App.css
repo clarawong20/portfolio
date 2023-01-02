@@ -107,7 +107,7 @@ span.navbar-text {
 .social-icon a{
   width: 42px;
   height: 42px;
-  background: rgba(253, 251, 251, 0.1);
+  background: rgba(253, 251, 251, 0.374);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -228,7 +228,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/backgroundImage.jpg');
+  background-image: url('./assets/img/bluebackground.webp');
   background-position: top center;
   background-size: cover;
   background-repeat:no-repeat;
@@ -254,12 +254,13 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
   line-height: 1;
   margin: bottom 20px;
   display:block;
+  color: white;
 }
 
 /*sizing for the typing text*/
 .banner h3{
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color:rgb(33, 29, 29)
 }
 
@@ -303,14 +304,18 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
   border-right: 0.08em solid #666;
 }
 
+.wrap {
+  color: rgb(255, 255, 255);
+}
+
 .banner img {
   border: 8px solid;
   animation: img 3s infinite;
 }
 
 @keyframes img {
-  from{border-color: rgb(106, 204, 250);}
-  to {border-color: rgb(230, 128, 128);}
+  from{border-color: #021624;}
+  to {border-color: #07446B;}
 }
 
 /***download resume***/
@@ -319,7 +324,7 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
   display: flex;
   gap: 1.2rem;
   border-color:#697CCA;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(75, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(87, 198, 213, 0.5) -5.91%, rgba(0, 106, 236, 0.5) 111.58%);
   border:1px solid;
   padding: 0.3em;
   margin: 0 -0.2em;
@@ -510,7 +515,7 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
 
 
 /*large devices*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
   .tag-program, .tag-arduino, .tag-3D,.tag-cad,.tag-develop,.tag-pi,.tag-plan {
     font-size: 15px;
   }
