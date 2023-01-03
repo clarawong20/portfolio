@@ -233,19 +233,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat:no-repeat;
 }
-/*welcome to be portfolio tagline
-HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
-
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(75, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255,255,255,0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display:inline-block;
-} */
 
 .banner h1{
   font-size: 65px;
@@ -309,13 +296,21 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
 }
 
 .banner img {
-  border: 8px solid;
-  animation: img 3s infinite;
+  width:100%;
+  height:auto;
+  margin-right:auto;
 }
 
-@keyframes img {
-  from{border-color: #021624;}
-  to {border-color: #07446B;}
+@media screen and (min-width: 1400px) {
+  .banner img {
+    width:600px;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width: 1400px) {
+  .banner img {
+    width:500px;
+  }
 }
 
 /***download resume***/

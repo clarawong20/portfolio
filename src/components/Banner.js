@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle, TypeBold } from "react-bootstrap-icons";
-import profilePic from "../assets/img/profilePic.jpg";
+import profilePic from "../assets/img/profilePic.webp";
 import CTA from './CTA';
 import 'animate.css';
 
