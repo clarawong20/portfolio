@@ -39,7 +39,7 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={coding} alt="coding pic"/>
                                     <h5><strong>Programming</strong></h5>
-                                    <h8>Python, React, Node JS, HTML, CSS, C, C++, Matlab</h8>
+                                    <h8>Python, React, Node JS, HTML, CSS, C, C++, Matlab, Figma</h8>
                                 </div>
                                 <div className="item">
                                     <img src={productDevelop} alt="productDevelopment pic" />

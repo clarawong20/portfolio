@@ -38,7 +38,7 @@ export const Experience=()=> {
                         <div class='card mt-4'>
                                 <img src={chem} alt='chem-img' class='card-img-top'></img>
                                 <div class='card-body'>
-                                    <h3 class='card-title'>Chem-E-Car</h3>
+                                    <h3 class='card-title'>Chem-E-Car Circuitry Team</h3>
                                     <h5 class='card-text'>McMaster University</h5>
                                     <p class='card-date'>September 2022-Present</p>
                                 </div>
@@ -47,7 +47,7 @@ export const Experience=()=> {
                                     <h7><strong>ARDUINO</strong></h7>
                                 </div>
                                 </div>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chem">More Info Coming Soon!</button> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chem">More Info</button> 
                             </div>
                     </div>
                     <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
@@ -82,7 +82,7 @@ export const Experience=()=> {
                                         <h7><strong>CAD</strong></h7>
                                     </div>
                             </div>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medt">More Info Coming Soon!</button> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medt">More Info</button> 
                         </div>
                     </div>
                 </div>  
@@ -117,6 +117,30 @@ export const Experience=()=> {
 
 
 
+            <div class="modal" id="chem" tabindex="-1" aria-labelledby="chemLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chemLabel"><big><strong>Chem-E-Car Circuitry Team</strong></big><br/><small>McMaster University</small><br/><small>September 2022-Present</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Chem-E-Car is a technical team at McMaster University where students design a car to compete at the regional and annual National Chem-E-Car competition, coordinated by the American Institute of Chemical Engineering (AIChE). 
+                        <br/><br/>As a member of the circuitry team, I work on facilitating the starting and stopping mechanisms/reactions of the car, designing a sensor system to assist with the stopping mechanism, and acquire data. 
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="https://macchecar.wixsite.com/mcmasterchemecar" target='_blank'>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">Visit Chem-E-Car Website</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>  
+
 
             <div class="modal" id="gdsc" tabindex="-1" aria-labelledby="gdscLabel" aria-hidden="true">
                 <div class='modal-dialog modal-dialog-scrollable'>
@@ -137,6 +161,36 @@ export const Experience=()=> {
                     <div class="modal-footer">
                     <a href="https://gdscmcmasteru.ca/" target='_blank'>
                         <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">Visit GDSC Website</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>  
+
+
+            <div class="modal" id="medt" tabindex="-1" aria-labelledby="medtLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="medtLabel"><big><strong>MED-T Outreach Team Member</strong></big><br/><small>McMaster University</small><br/><small>Sept 2021-Present</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>McMaster Medical Engineering Design Team (MED-T) is a technical team at McMaster University. MED-T’s goal is to create a multi-disciplinary student-lead community at McMaster that 
+                            focuses on technical design project work, and education aimed at applications in medicine. Our hope is that students who engage in our community will gain useful hands-on experience 
+                            in developing medical technology and will be motivated to continue learning about the field of biomedical engineering.
+                        <br/><br/>As a member of the outreach team, I promote the field of biomedical engineering to the student body. Over the past two years, I have created infographics to educate the student body about
+                        certain fields within biomedical engineering (eg. neural engineering) as well as hosted and mentored at a CAD workshop targeting beginner Autodesk Inventor users.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://www.facebook.com/MacMEDT/posts/1353604505102228" target='_blank' rel="noreferrer">
+                        <button type="button" class="btn btn-primary">View Infographic</button></a>
+                        <a href="https://www.facebook.com/MacMEDT/posts/pfbid0muX68GnyD5Bxys9hv9iCZoAQUTqcAxQMvNRzquky15641gqSCx6vVpi34hXNwgWGl" target='_blank' rel="noreferrer">
+                        <button type="button" class="btn btn-primary">View CAD Workshop Details</button></a>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>

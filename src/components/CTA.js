@@ -1,4 +1,4 @@
-import Resume from '../assets/img/TechResume.docx';
+import Resume from '../assets/img/ClaraWongResume.pdf';
 
 const CTA=()=> {
     return (
