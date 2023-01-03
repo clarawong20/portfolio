@@ -522,7 +522,7 @@ HTML code for tagline: <span className="tagline">Welcome to my Portfolio</span>
 }
 
 /*small devices*/
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 400px) and (max-width: 750px) {
   .tag-program, .tag-arduino, .tag-3D,.tag-cad,.tag-develop,.tag-pi,.tag-plan {
     font-size: 15px;
   }
