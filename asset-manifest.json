@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1eccf471.css",
-    "main.js": "/portfolio/static/js/main.188d7601.js",
+    "main.css": "/portfolio/static/css/main.c3371a55.css",
+    "main.js": "/portfolio/static/js/main.1583cfdc.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/posterboard.png": "/portfolio/static/media/posterboard.8e4b54ed39d4b512e713.png",
     "static/media/cpr.png": "/portfolio/static/media/cpr.b021d6991302e7a52869.png",
@@ -9,7 +9,7 @@
     "static/media/ostomy.png": "/portfolio/static/media/ostomy.e0fc7f234e1fdd273e9a.png",
     "static/media/hip implant.png": "/portfolio/static/media/hip implant.d4800a28c8362e39ff47.png",
     "static/media/implants.png": "/portfolio/static/media/implants.d4800a28c8362e39ff47.png",
-    "static/media/ClaraWongResume.pdf": "/portfolio/static/media/ClaraWongResume.ca349bc32d04600846d9.pdf",
+    "static/media/ClaraWongResume.pdf": "/portfolio/static/media/ClaraWongResume.5f52e5031fdd2ae9c8b9.pdf",
     "static/media/lift2.png": "/portfolio/static/media/lift2.6cfff3f7a5620d704dd2.png",
     "static/media/stats.jpg": "/portfolio/static/media/stats.f74b5c05ea7ec56d9bda.jpg",
     "static/media/winter.jpg": "/portfolio/static/media/winter.eda40cf36a8682f0fe66.jpg",
@@ -37,12 +37,12 @@
     "static/media/github.svg": "/portfolio/static/media/github.a503df289afca2eac066b0ac0eba10da.svg",
     "static/media/bluebackground.webp": "/portfolio/static/media/bluebackground.a01b9a9b6470fbb9cb77.webp",
     "index.html": "/portfolio/index.html",
-    "main.1eccf471.css.map": "/portfolio/static/css/main.1eccf471.css.map",
-    "main.188d7601.js.map": "/portfolio/static/js/main.188d7601.js.map",
+    "main.c3371a55.css.map": "/portfolio/static/css/main.c3371a55.css.map",
+    "main.1583cfdc.js.map": "/portfolio/static/js/main.1583cfdc.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eccf471.css",
-    "static/js/main.188d7601.js"
+    "static/css/main.c3371a55.css",
+    "static/js/main.1583cfdc.js"
   ]
 }
