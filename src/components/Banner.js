@@ -10,9 +10,9 @@ export const Banner = () => {
     const[isDeleting, setIsDeleting]=useState(false); /*initially set at false since start off typing*/
     const toRotate = ["She/her", "Electrical Engineer", "Biomedical Engineer"];
     const[text, setText] = useState('');
-    const[delta, setDelta]=useState(300-Math.random()*100); /*how fast one letter comes after the first one is typed*/
+    const[delta, setDelta]=useState(300-Math.random()*200); /*how fast one letter comes after the first one is typed*/
     const [index, setIndex] = useState(1);
-    const period=200; /*time between each word typed*/
+    const period=100; /*time between each word typed*/
 
     useEffect(()=> {       
         let ticker=setInterval(()=> {

@@ -1,6 +1,7 @@
 import navIcon1 from '../assets/img/github.svg';
 import navIcon2 from '../assets/img/linkedin.svg';
 import navIcon3 from '../assets/img/email.png';
+import Resume from '../assets/img/ClaraWongResume.pdf';
 
 export const Footer=()=> {
     return (
@@ -12,6 +13,10 @@ export const Footer=()=> {
                 <a class="nodeco" href="#experience">WORK EXPERIENCE</a>
                 <a class="nodeco" href="#projects">PROJECTS</a>
                 <a class="nodeco" href="#contact">CONTACT</a>
+            </div>
+
+            <div className='resume-button'>
+                <a href={Resume} download>RESUME</a>
             </div>
 
             <div className="footer-socials">

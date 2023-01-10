@@ -395,10 +395,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 2px 2px 2px;
 }
 
-.card:hover{
-  background-color: #90a0df !important;
-}
-
 .experience h1, .projects h1{
   font-size: 45px;
   font-weight: 700;
@@ -649,7 +645,7 @@ footer {
 }
 
 footer a {
-  color: #000000;
+  color: black;
 }
 
 .footer_logo {
@@ -665,7 +661,7 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 0 0.5rem 2rem;
+  margin: 0 0.5rem 1.5rem;
   text-decoration: none !important;
 }
 
@@ -696,6 +692,33 @@ footer a {
   margin-bottom: 4rem;
   color: var(--color-bg); 
 }
+
+.resume-button {
+  margin-bottom: 2.5rem !important;
+  border-color: rgb(87, 87, 171) !important;
+  background: rgb(147, 164, 234);
+  border-radius: 25px;
+  border: 2px solid;
+  width: 18%;
+  padding: 0.5em;
+  font-size: 22px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: auto;
+  }
+
+.resume-button a{
+    text-decoration: none !important;
+    color: black;
+    font-family: 'Centra', sans-serif !important;
+  }
+  
+.resume-button:hover {
+    border-color: white !important;
+    background: transparent;
+  }
 
 /* small devices */
 @media screen and (max-width:600px) {
