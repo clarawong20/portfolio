@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c3371a55.css",
-    "main.js": "/portfolio/static/js/main.dc654d7f.js",
+    "main.css": "/portfolio/static/css/main.5abe9b6c.css",
+    "main.js": "/portfolio/static/js/main.e7fa1cef.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/posterboard.png": "/portfolio/static/media/posterboard.8e4b54ed39d4b512e713.png",
+    "static/media/linWave.jpg": "/portfolio/static/media/linWave.df9dd6ecec9cdb8fd5ad.jpg",
+    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.65daa4042a1fbc24f694.jpg",
     "static/media/cpr.png": "/portfolio/static/media/cpr.b021d6991302e7a52869.png",
     "static/media/OstomyPic.png": "/portfolio/static/media/OstomyPic.d868538d6c4515c6a376.png",
     "static/media/ostomy.png": "/portfolio/static/media/ostomy.e0fc7f234e1fdd273e9a.png",
     "static/media/hip implant.png": "/portfolio/static/media/hip implant.d4800a28c8362e39ff47.png",
     "static/media/implants.png": "/portfolio/static/media/implants.d4800a28c8362e39ff47.png",
-    "static/media/ClaraWongResume.pdf": "/portfolio/static/media/ClaraWongResume.ee96d83c0c595768acee.pdf",
+    "static/media/ClaraWongResume2.pdf": "/portfolio/static/media/ClaraWongResume2.bcd5b2673cb23f68d0b3.pdf",
+    "static/media/foodDiscount.png": "/portfolio/static/media/foodDiscount.5313a4270e537ac26706.png",
     "static/media/lift2.png": "/portfolio/static/media/lift2.6cfff3f7a5620d704dd2.png",
     "static/media/stats.jpg": "/portfolio/static/media/stats.f74b5c05ea7ec56d9bda.jpg",
     "static/media/winter.jpg": "/portfolio/static/media/winter.eda40cf36a8682f0fe66.jpg",
-    "static/media/profilePic.webp": "/portfolio/static/media/profilePic.8b67980d540d0531b021.webp",
+    "static/media/mcscert.jpg": "/portfolio/static/media/mcscert.1e9aaa95d57614f28958.jpg",
     "static/media/code.jpg": "/portfolio/static/media/code.29b041cd1247c9593b07.jpg",
     "static/media/lift.png": "/portfolio/static/media/lift.8ef13664c6bbc1d3b712.png",
     "static/media/sickkids.webp": "/portfolio/static/media/sickkids.35239417e4469c6aeb3b.webp",
@@ -37,12 +40,12 @@
     "static/media/github.svg": "/portfolio/static/media/github.a503df289afca2eac066b0ac0eba10da.svg",
     "static/media/bluebackground.webp": "/portfolio/static/media/bluebackground.a01b9a9b6470fbb9cb77.webp",
     "index.html": "/portfolio/index.html",
-    "main.c3371a55.css.map": "/portfolio/static/css/main.c3371a55.css.map",
-    "main.dc654d7f.js.map": "/portfolio/static/js/main.dc654d7f.js.map",
+    "main.5abe9b6c.css.map": "/portfolio/static/css/main.5abe9b6c.css.map",
+    "main.e7fa1cef.js.map": "/portfolio/static/js/main.e7fa1cef.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3371a55.css",
-    "static/js/main.dc654d7f.js"
+    "static/css/main.5abe9b6c.css",
+    "static/js/main.e7fa1cef.js"
   ]
 }
