@@ -1,7 +1,9 @@
+import McSCert from '../assets/img/mcscert.jpg';
 import sickkids from '../assets/img/sickkids.webp';
 import chem from '../assets/img/chemecar.jpg';
 import gdsc from '../assets/img/gdsc.png';
 import medt from '../assets/img/medt.png';
+import linWave from '../assets/img/linWave.jpg';
 import { Divider } from 'semantic-ui-react';
 import {useState} from "react";
 import React from 'react';
@@ -12,6 +14,32 @@ export const Experience=()=> {
             <h1>My Experience</h1>
             <div class='container'>
                 <div class='row'>
+                <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4'>
+                            <img src={McSCert} alt='mcscert-img' class='card-img-top'></img>
+                            <div class='card-body'>
+                                <h3 class='card-title'>Software Research Assistant</h3>
+                                <h5 class='card-text'>McMaster Centre for Software Certification (McSCert)</h5>
+                                <p class='card-date'>May 2023-Present</p>
+                            </div>
+                            <div className='experience-item-cta'>
+                                <div className='tag-program'>
+                                    <h7><strong>C/C++</strong></h7>
+                                </div>
+                                <div className='tag-arduino'>
+                                    <h7><strong>Embedded Software</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>Matlab</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>Simulink</strong></h7>
+                                </div>
+                            </div> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mcscert">More Info</button> 
+                            </div>
+                    </div>
+
                     <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={sickkids} alt='sickkids-img' class='card-img-top'></img>
@@ -34,6 +62,7 @@ export const Experience=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sickkids">More Info</button> 
                             </div>
                     </div>
+
                     <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                                 <img src={chem} alt='chem-img' class='card-img-top'></img>
@@ -50,6 +79,7 @@ export const Experience=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chem">More Info</button> 
                             </div>
                     </div>
+
                     <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={gdsc} alt='gdsc-img' class='card-img-top'></img>
@@ -66,6 +96,7 @@ export const Experience=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gdsc">More Info</button> 
                         </div>
                     </div>
+
                     <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={medt} alt='medt-img' class='card-img-top'></img>
@@ -89,6 +120,38 @@ export const Experience=()=> {
             </div>
 
 
+            <div class="modal" id="mcscert" tabindex="-1" aria-labelledby="mcscertLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="mcscertLabel"><big><strong>Software Research Assistant</strong></big><br/><small>Co-op, Part-time (school year)</small><br/><small>McMaster Centre for Software Certification</small><br/><small>May 2022-August 2022</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This past summer, I had the pleasure of completing my second co-op at the McMaster Centre for Software Certification (McSCert). 
+                        I worked under the supervision of Dr. Mark Lawford (department head of software and computing at McMaster University), Dr. Vera Pantelic (Senior Principal Research Engineer), and Dr. Victor Bandur (Principal Research Engineer).
+                        <br/><br/>I had the opportunity to work on two projects this summer. The first project involved working on centralized automotive architectures. 
+                        I worked on further development, testing, and debugging of the LIN communication code. It was programmed in C, and I had the opportunity to work with NXP microcontrollers (S32K344 boards), oscilloscopes, and Vector CANoe. 
+                        <br/>
+                        <img src={linWave} alt='linWave'></img>
+                        <br/><br/>
+                        <p><i>Figure 1: example LIN wave sent from the S32K344 microcontroller board, probed using the oscilloscope.</i></p>
+                        <br/><br/>In the second half of the summer, I worked on configuring a 3-phase motor simulation in Simulink to network PWM and rotor information between a motor (which the simulation acts as) and microcontroller board. 
+                        The goal was to send PWM duty cycles and periods to the board and then return the position, speed, and currents of the rotor. The goal of this project is to allow users to test motor functionality without the need for a physical motor. 
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="https://www.mcscert.ca/mcscert-research-team/" target='_blank'>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">Visit McSCert Website</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+
             <div class="modal" id="sickkids" tabindex="-1" aria-labelledby="sickkidsLabel" aria-hidden="true">
                 <div class='modal-dialog modal-dialog-scrollable'>
                 <div class="modal-dialog">
@@ -99,7 +162,7 @@ export const Experience=()=> {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>This past summer, I worked a co-op position at The Hospital for Sick Children in Toronto. 
+                        <p>In the summer following first year, I worked a co-op position at The Hospital for Sick Children in Toronto. 
                         I worked under the supervision of Dr. Dale Podolsky, a plastic surgeon in the department of reconstructive surgery at SickKids hospital.
                         <br/><br/>My work consisted of building metopic craniosynostosis surgery simulation models and simulation tools. The simulation models act as a learning tool for new surgeons as well as a way for surgeons to practice craniosynostosis surgeries. The models and tools were designed using <strong>Autodesk Inventor</strong> and the surgical models were designed using <strong>Magics and Blender</strong>. Everything was 3D printed using an <strong>Ultimaker Cura</strong> printer, then assembled.
                         Throughout my work term, I was efficient and detail-oriented. The models had to be precise and correct in order to accurately simulate a craniosynostosis surgery. I was given a deadline and completed my work <strong>2 weeks in advance</strong>.

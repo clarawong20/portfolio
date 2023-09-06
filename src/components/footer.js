@@ -1,7 +1,7 @@
 import navIcon1 from '../assets/img/github.svg';
 import navIcon2 from '../assets/img/linkedin.svg';
 import navIcon3 from '../assets/img/email.png';
-import Resume from '../assets/img/ClaraWongResume.pdf';
+import Resume from '../assets/img/ClaraWongResume2.pdf';
 
 export const Footer=()=> {
     return (
@@ -15,9 +15,12 @@ export const Footer=()=> {
                 <a class="nodeco" href="#contact">CONTACT</a>
             </div>
 
-            <div className='resume-button'>
-                <a href={Resume} download>RESUME</a>
+            <a href={Resume} download>
+                <div className='resume-button'>
+                
+                    <button>RESUME</button>
             </div>
+            </a>
 
             <div className="footer-socials">
                 <a href="https://www.linkedin.com/in/clarawong20/"><img src={navIcon2} alt="linkedin logo"/></a>

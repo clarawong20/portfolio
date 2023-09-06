@@ -296,35 +296,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  width:100%;
-  height:auto;
-  margin-right:auto;
-}
+
+  border-radius: 80%;
+  width: 50;
+  height: 40;
+  display: "block";
+  background-position: "center";
+} 
 
 @media screen and (min-width: 1400px) {
   .banner img {
-    width:600px;
+    /*width:600px;*/
+    border-radius: 80%;
+    width: 50;
+    height: 40;
+    display: "block";
+    background-position: "center";
   }
 }
 
 @media screen and (min-width:800px) and (max-width: 1400px) {
   .banner img {
-    width:500px;
+    border-radius: 50%;
+    width: 50;
+    height: 40;
+    display: "block";
+    background-position: "center";
   }
-}
+} 
 
 /***download resume***/
-.cta {
+.cta button {
   margin-top: 2.5rem;
-  display: flex;
-  gap: 1.2rem;
-  border-color:#697CCA;
+  border-color: #697CCA;
   background: linear-gradient(90.21deg, rgba(87, 198, 213, 0.5) -5.91%, rgba(0, 106, 236, 0.5) 111.58%);
-  border:1px solid;
-  padding: 0.3em;
-  margin: 0 -0.2em;
+  border: 1px solid;
   text-align: center;
   font-size: 22px;
+  width: 90%;
+  height: 70%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .cta a{
