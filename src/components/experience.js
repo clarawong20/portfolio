@@ -7,6 +7,7 @@ import linWave from '../assets/img/linWave.jpg';
 import { Divider } from 'semantic-ui-react';
 import {useState} from "react";
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Experience=()=> {
     return (
@@ -132,8 +133,12 @@ export const Experience=()=> {
                     <div class="modal-body">
                         <p>This past summer, I had the pleasure of completing my second co-op at the McMaster Centre for Software Certification (McSCert). 
                         I worked under the supervision of Dr. Mark Lawford (department head of software and computing at McMaster University), Dr. Vera Pantelic (Senior Principal Research Engineer), and Dr. Victor Bandur (Principal Research Engineer).
-                        <br/><br/>I had the opportunity to work on two projects this summer. The first project involved working on centralized automotive architectures. 
-                        I worked on further development, testing, and debugging of the LIN communication code. It was programmed in C, and I had the opportunity to work with NXP microcontrollers (S32K344 boards), oscilloscopes, and Vector CANoe. 
+                        <br/><br/>I had the opportunity to work on two projects this summer. The first project involved working on a domain gateway for centralized automotive architectures. 
+                        A domain gateway is an electronic control unit (ECU). Decentralized architectures typically have more than 100 ECUs, which is an issue due to its increased software complexity. This leads to significant development and maintenance costs. Luckily, these limitations can be addressed by implementing centralized architectures/the domain gateway. 
+                        More information about the background work of centralized automotive architectures can be found <a href="https://www.researchgate.net/publication/348825146_Making_the_Case_for_Centralized_Automotive_EE_Architectures">here</a>, in an article written by my aforementioned supervisors.
+                        I worked on further development, testing, and debugging of the LIN task communication code in the domain gateway. It was programmed in C, and I had the opportunity to work with NXP microcontrollers (S32K344 boards), oscilloscopes, and Vector CANoe. 
+                        Additionally, I worked on implementing a FreeRTOS scheduler in the overall domain gateway controller. This FreeRTOS scheduler would replace the state machine that was being used at the time. 
+                        The scheduler would ensure that the other tasks in the domain gateway would run while there were breaks in the LIN task. 
                         <br/>
                         <img src={linWave} alt='linWave'></img>
                         <br/><br/>

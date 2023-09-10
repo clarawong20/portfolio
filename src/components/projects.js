@@ -13,6 +13,7 @@ import cprCode from '../assets/img/cprCode.jpg';
 import engDraw from '../assets/img/engDraw.png';
 import liftCad from '../assets/img/liftCad.png';
 import lift2 from '../assets/img/lift2.png';
+import pillDrop from '../assets/img/pillDrop.jpg';
 import foodDiscount from '../assets/img/foodDiscount.png';
 
 export const Projects=()=> {
@@ -44,7 +45,30 @@ export const Projects=()=> {
                                     </div>
                             </div>   
                             </div>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#website">More Info</button> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#app">More Info</button> 
+                            </div>
+                    </div>
+
+                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4'>
+                            <img src={pillDrop} alt='website-img' class='card-img-top'></img>
+                            <div class='card-body'>
+                                <h3 class='card-title'>Pill Drop</h3>
+                                <h5 class='card-text'>Hackathon Project</h5>
+                                <p class='card-date'>January 2023</p>
+                                <div className='project-item-cta'>
+                                    <div className='tag-arduino'>
+                                        <h7><strong>ARDUINO</strong></h7>
+                                    </div>
+                                    <div className='tag-arduino'>
+                                        <h7><strong>RASPBERRY PI</strong></h7>
+                                    </div>
+                                    <div className='tag-program'>
+                                        <h7><strong>PYTHON</strong></h7>
+                                    </div>
+                            </div>   
+                            </div>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pillDrop">More Info</button> 
                             </div>
                     </div>
 
@@ -189,12 +213,12 @@ export const Projects=()=> {
             </div>
 
 
-            <div class="modal" id="website" tabindex="-1" aria-labelledby="websiteLabel" aria-hidden="true">
+            <div class="modal" id="app" tabindex="-1" aria-labelledby="appLabel" aria-hidden="true">
                 <div class='modal-dialog modal-dialog-scrollable'>
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="websiteLabel"><big>Food Discount App</big><br/><small>Personal Project</small><br/><small>July 2023-Ongoing</small></h5>
+                        <h5 class="modal-title" id="appLabel"><big>Food Discount App</big><br/><small>Personal Project</small><br/><small>July 2023-Ongoing</small></h5>
                         
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -217,6 +241,42 @@ export const Projects=()=> {
                 </div>
             </div>
 
+            <div class="modal" id="pillDrop" tabindex="-1" aria-labelledby="pillDropLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pillDropLabel"><big>Pill Drop</big><br/><small>Hackathon Project</small><br/><small>January 2023</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This project was completed at DeltaHacks 9 in January 2023. It was a 24 hour hackathon and I worked in a group of 4 (shoutout to my teammates Leanne Chen, Zara Khan, and Dhanya Koshti!)
+                            In the end, we were awarded first place in the Med X Insight category, which focused on the best health hack. Currently, we are working with Med X Insight to create a high-level prototype and a UI so users can adjust 
+                            their medication schedule. 
+                        <br/><br/>
+                            According to the United State's Department of Health and Human Services, 55% of the elderly are non-compliant with their prescription drug orders, 
+                            meaning they don't take their medication according to the doctor's instructions, where 30% are hospital readmissions. 
+                            Although there are many reasons why seniors don't take their medications as prescribed, memory loss is one of the most common causes. 
+                            Elders with Alzheimer's or other related forms of dementia are prone to medication management problems. 
+                            They may simply forget to take their medications, causing them to skip doses. Or, they may forget that they have already taken their medication 
+                            and end up taking multiple doses, risking an overdose. Therefore, we decided to solve this issue with Pill Drop, which helps people remember to take their medication.
+                        <br/><br/>
+                        The Pill Drop dispenses pills at scheduled times throughout the day. It helps people, primarily seniors, take their medication on time. It also saves users the trouble of 
+                        remembering which pills to take, by automatically dispensing the appropriate medication. It tracks whether a user has taken said dispensed pills by starting an internal timer. 
+                        If the patient takes the pills and presses a button before the time limit, Pill Drop will record this instance as "Pill Taken".
+                        </p>
+                    </div>
+                    <div class="modal-footer"> 
+                        <a href="https://devpost.com/software/pill-drop-mrvltj" target='_blank' rel="noreferrer">
+                        <button type="button" class="btn btn-primary">DevPost</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="modal" id="website" tabindex="-1" aria-labelledby="websiteLabel" aria-hidden="true">
                 <div class='modal-dialog modal-dialog-scrollable'>
                 <div class="modal-dialog">
@@ -227,7 +287,7 @@ export const Projects=()=> {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Using React.js, I created a personal portfolio to showcase some of my knowledge in HTML, CSS, and Javascript. I used tools such as Bootstrap to help make components of my portfolio.
+                        <p>Using React.js, I created a personal portfolio (what you're looking at right now!) to showcase some of my knowledge in HTML, CSS, and Javascript. I used tools such as Bootstrap to help make components of my portfolio.
                         <br/><br/>This project was a great experience: I went into it with little knowledge of HTML and CSS, and came out with a great level of knowledge of HTML, CSS, and Javascript.
                         </p>
                     </div>

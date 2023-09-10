@@ -433,6 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience-item-cta, .project-item-cta {
   gap: 0.2rem;
   margin-bottom: 1rem;
+  margin-left: 0.5rem;
   padding-top: 2px;
   display: flex;
 }
@@ -522,7 +523,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*large devices*/
 @media screen and (min-width: 1400px) {
   .tag-program, .tag-arduino, .tag-3D,.tag-cad,.tag-develop,.tag-pi,.tag-plan {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
