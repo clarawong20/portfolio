@@ -4,6 +4,8 @@ import chem from '../assets/img/chemecar.jpg';
 import gdsc from '../assets/img/gdsc.png';
 import medt from '../assets/img/medt.png';
 import linWave from '../assets/img/linWave.jpg';
+import amd from '../assets/img/amd.jpg';
+import macAi from '../assets/img/macAi.png';
 import { Divider } from 'semantic-ui-react';
 import {useState} from "react";
 import React from 'react';
@@ -17,11 +19,75 @@ export const Experience=()=> {
                 <div class='row'>
                 <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
+                            <img src={amd} alt='amd-img' class='card-img-top'></img>
+                            <div class='card-body'>
+                                <h3 class='card-title'>Associate Software Engineer</h3>
+                                <h5 class='card-text'>Advanced Micro Devices (AMD)</h5>
+                                <p class='card-date'>September 2025-Present</p>
+                            </div>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amd-pt">More Info</button> 
+                            </div>
+                    </div>
+
+
+                <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4'>
+                            <img src={amd} alt='amd-img' class='card-img-top'></img>
+                            <div class='card-body'>
+                                <h3 class='card-title'>Software Engineer Intern</h3>
+                                <h5 class='card-text'>Advanced Micro Devices (AMD)</h5>
+                                <p class='card-date'>May 2024-August 2025</p>
+                            </div>
+                            <div className='experience-item-cta'>
+                                <div className='tag-program'>
+                                    <h7><strong>C++</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>Python</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>SQL</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>WinDbg</strong></h7>
+                                </div>
+                            </div> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#amd">More Info</button> 
+                            </div>
+                    </div>
+
+
+                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4'>
+                            <img src={macAi} alt='macAi-img' class='card-img-top'></img>
+                            <div class='card-body'>
+                                <h3 class='card-title'>Project Team Member</h3>
+                                <h5 class='card-text'>McMaster AI Society</h5>
+                                <p class='card-date'>September 2024-May 2025</p>
+                            </div>
+                            <div className='experience-item-cta'>
+                                <div className='tag-program'>
+                                    <h7><strong>Python</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>Reinforcement Learning</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>OpenAI</strong></h7>
+                                </div>
+                            </div> 
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macAi">More Info</button> 
+                            </div>
+                    </div>
+
+
+                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4'>
                             <img src={McSCert} alt='mcscert-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Software Research Assistant</h3>
                                 <h5 class='card-text'>McMaster Centre for Software Certification (McSCert)</h5>
-                                <p class='card-date'>May 2023-Present</p>
+                                <p class='card-date'>May 2023-April 2024</p>
                             </div>
                             <div className='experience-item-cta'>
                                 <div className='tag-program'>
@@ -70,7 +136,7 @@ export const Experience=()=> {
                                 <div class='card-body'>
                                     <h3 class='card-title'>Chem-E-Car Circuitry Team</h3>
                                     <h5 class='card-text'>McMaster University</h5>
-                                    <p class='card-date'>September 2022-Present</p>
+                                    <p class='card-date'>September 2022-May 2023</p>
                                 </div>
                                 <div className='experience-item-cta'>
                                     <div className='tag-arduino'>
@@ -87,7 +153,7 @@ export const Experience=()=> {
                             <div class='card-body'>
                                 <h3 class='card-title'>Community & Code GDSC Team Member</h3>
                                 <h5 class='card-text'>McMaster University</h5>
-                                <p class='card-date'>September 2021-Present</p>
+                                <p class='card-date'>September 2021-May 2025</p>
                             </div>
                             <div className='experience-item-cta'> 
                                 <div className='tag-plan'>
@@ -104,7 +170,7 @@ export const Experience=()=> {
                             <div class='card-body'>
                                 <h3 class='card-title'>MED-T Outreach Team Member</h3>
                                 <h5 class='card-text'>McMaster University</h5>
-                                <p class='card-date'>September 2021-Present</p>
+                                <p class='card-date'>September 2021-May 2022</p>
                             </div>
                             <div className='experience-item-cta'>
                                 <div className='tag-plan'>
@@ -119,6 +185,110 @@ export const Experience=()=> {
                     </div>
                 </div>  
             </div>
+
+
+
+
+            <div class="modal" id="amd-pt" tabindex="-1" aria-labelledby="amdLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="amdLabel"><big><strong>Associate Software Engineer</strong></big><br/><small>Contract Part Time</small><br/><small>Advanced Micro Devices (AMD)</small><br/><small>September 2025-Present</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>I am continuing to work with the Displays team on new display POCs (Proof of Concepts). To be updated later.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+
+
+            <div class="modal" id="amd" tabindex="-1" aria-labelledby="amdLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="amdLabel"><big><strong>Software Engineer</strong></big><br/><small>Co-op</small><br/><small>Advanced Micro Devices (AMD)</small><br/><small>May 2024-August 2025</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>I had the opportunity to work on the Displays team at AMD Markham. I worked with the FreeSync certification team, 
+                            which is in charge of overseeing all FreeSync certification for various displays such as monitors, TVs, and laptops, 
+                            with further expansion into different products coming in the future. </p>
+                        <p> My work focused on streamlining the FreeSync certification process in order to meet market demands. The FreeSync market 
+                            for monitors alone is expected to increase to by $3.3 billion by 2032. In order to certify the volume of displays required 
+                            to meet these demands without requiring more manpower, the certification process had to be automated and integrated into a 
+                            centralized application. The old FreeSync certification process consisted of each stage of the certification life cycle 
+                            taking place across various platforms, leading to a very disjointed and inefficient system. The online FreeSync Certification 
+                            application was built to unify all these processes under one application. The application was made using <strong>C++</strong> and 
+                            <strong>.NET framework</strong> with a team of four people, including myself. A larger group of engineers (approximately 20 others) 
+                            contributed to the application as well. 
+                        </p>
+                        <p> In addition to building the application, I was in charge of ensuring the AMD website was properly updated with recent FreeSync 
+                            certified products. I accomplished this by fixing bugs and updating existing <strong>Python</strong> scripts to parse for new data in thousands 
+                            of html and Excel files to update our internal database. I managed the database through the use of <strong>MySQL</strong>. 
+                        </p>
+                        <p>Moreover, I debugged display driver code <strong>(C/C++)</strong> to resolve FreeSync related issue. <strong>JIRA</strong> was used for project management and <strong>Git</strong> 
+                            for version control.
+                        </p> 
+                        <p>Highlights:
+                        <br/>
+                        •  Awarded the <strong>Q2 spotlight award</strong> for streamlining FreeSync certification processes, leading to a <strong>39% decrease</strong> in certification backlog
+                        <br/>
+                        •  Took part in the release of three major updates and two beta versions of the FreeSync certification application during my co-op term
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="https://www.amd.com/en/products/graphics/technologies/freesync.html" target='_blank'>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">Visit AMD FreeSync Website</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+
+
+
+            <div class="modal" id="macAi" tabindex="-1" aria-labelledby="macAiLabel" aria-hidden="true">
+                <div class='modal-dialog modal-dialog-scrollable'>
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="macAiLabel"><big><strong>MacAI Society Project Team Member</strong></big><br/><small>McMaster University</small><br/><small>September 2024-May 2025</small></h5>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>In a team of 5, we developed TrafficLightRL, a project that leverages <strong>Reinforcement Learning (RL)</strong> to dynamically optimize traffic light control systems, reducing urban congestion and 
+                            improving travel efficiency. By integrating real-world mapping tools with deep RL models, we develop adaptive signal control strategies 
+                            that improve traffic flow, reduce emissions, and enhance urban mobility.
+                        <br/>The project applies OpenStreetMap's Web Wizard to export real-life geographical locations and train RL agents on real-world traffic data. 
+                        By targeting intersections in major university campuses, the project demonstrates TrafficLightRL’s ability to optimize traffic flow in practical, 
+                        high-traffic areas. Each person in the project focused on specific campus intersections, refining reward functions and agent performance for optimal 
+                        real-world traffic simulations.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="https://github.com/McMasterAI2024-2025/TrafficLightRL" target='_blank'>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">TrafficLightRL Github Page</button></a>
+                        <a href="https://github.com/McMasterAI2024-2025/TrafficLightRL/blob/main/Documentation/TrafficLightRL_Research_Paper_2025.pdf" target='_blank' rel="noreferrer">
+                        <button type="button" class="btn btn-primary">Research Paper</button></a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>  
 
 
             <div class="modal" id="mcscert" tabindex="-1" aria-labelledby="mcscertLabel" aria-hidden="true">
@@ -148,7 +318,7 @@ export const Experience=()=> {
                         </p>
                     </div>
                     <div class="modal-footer">
-                    <a href="https://www.mcscert.ca/mcscert-research-team/" target='_blank'>
+                    <a href="https://www.eng.mcmaster.ca/mcscert/" target='_blank'>
                         <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">Visit McSCert Website</button></a>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
@@ -172,10 +342,11 @@ export const Experience=()=> {
                         <br/><br/>My work consisted of building metopic craniosynostosis surgery simulation models and simulation tools. The simulation models act as a learning tool for new surgeons as well as a way for surgeons to practice craniosynostosis surgeries. The models and tools were designed using <strong>Autodesk Inventor</strong> and the surgical models were designed using <strong>Magics and Blender</strong>. Everything was 3D printed using an <strong>Ultimaker Cura</strong> printer, then assembled.
                         Throughout my work term, I was efficient and detail-oriented. The models had to be precise and correct in order to accurately simulate a craniosynostosis surgery. I was given a deadline and completed my work <strong>2 weeks in advance</strong>.
                         <br/><br/>The models were taken to a craniosynostosis surgery fellows conference in Phoenix, Arizona where they were tested. A research paper was published based on the effectiveness of the models. The effectiveness was determined based on change in knowledge and confidence levels in participants before and after the conference.
-                        <br/><br/><strong>Research paper coming soon.</strong>
                         </p>
                     </div>
                     <div class="modal-footer">
+                        <a href="https://journals.lww.com/plasreconsurg/fulltext/2024/01000/simulation_in_craniosynostosis_surgery.55.aspx" target='_blank'>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="gdsc-website">View Research Paper</button></a>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                     </div>
@@ -190,7 +361,7 @@ export const Experience=()=> {
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="chemLabel"><big><strong>Chem-E-Car Circuitry Team</strong></big><br/><small>McMaster University</small><br/><small>September 2022-Present</small></h5>
+                        <h5 class="modal-title" id="chemLabel"><big><strong>Chem-E-Car Circuitry Team</strong></big><br/><small>McMaster University</small><br/><small>September 2022-May 2023</small></h5>
                         
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -215,7 +386,7 @@ export const Experience=()=> {
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="gdscLabel"><big><strong>Community & Code GDSC Team Member</strong></big><br/><small>McMaster University</small><br/><small>September 2021-Present</small></h5>
+                        <h5 class="modal-title" id="gdscLabel"><big><strong>Community & Code GDSC Team Member</strong></big><br/><small>McMaster University</small><br/><small>September 2021-May 2025</small></h5>
                         
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -242,7 +413,7 @@ export const Experience=()=> {
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="medtLabel"><big><strong>MED-T Outreach Team Member</strong></big><br/><small>McMaster University</small><br/><small>Sept 2021-Present</small></h5>
+                        <h5 class="modal-title" id="medtLabel"><big><strong>MED-T Outreach Team Member</strong></big><br/><small>McMaster University</small><br/><small>Sept 2021-May 2022</small></h5>
                         
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
