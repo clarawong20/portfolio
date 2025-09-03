@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b57fad3b.css",
-    "main.js": "/portfolio/static/js/main.33a802e0.js",
+    "main.js": "/portfolio/static/js/main.b9523df9.js",
     "static/js/787.5809834d.chunk.js": "/portfolio/static/js/787.5809834d.chunk.js",
     "static/media/posterboard.png": "/portfolio/static/media/posterboard.8e4b54ed39d4b512e713.png",
     "static/media/linWave.jpg": "/portfolio/static/media/linWave.df9dd6ecec9cdb8fd5ad.jpg",
@@ -11,10 +11,8 @@
     "static/media/ostomy.png": "/portfolio/static/media/ostomy.e0fc7f234e1fdd273e9a.png",
     "static/media/hip implant.png": "/portfolio/static/media/hip implant.d4800a28c8362e39ff47.png",
     "static/media/implants.png": "/portfolio/static/media/implants.d4800a28c8362e39ff47.png",
-    "static/media/ClaraWongResume2.pdf": "/portfolio/static/media/ClaraWongResume2.167e29f6f8ca217fa6f2.pdf",
-    "static/media/foodDiscount.png": "/portfolio/static/media/foodDiscount.5313a4270e537ac26706.png",
+    "static/media/ClaraWongResume2.pdf": "/portfolio/static/media/ClaraWongResume2.7bc391ceb243e74ce033.pdf",
     "static/media/lift2.png": "/portfolio/static/media/lift2.6cfff3f7a5620d704dd2.png",
-    "static/media/stats.jpg": "/portfolio/static/media/stats.f74b5c05ea7ec56d9bda.jpg",
     "static/media/winter.jpg": "/portfolio/static/media/winter.eda40cf36a8682f0fe66.jpg",
     "static/media/mcscert.jpg": "/portfolio/static/media/mcscert.1e9aaa95d57614f28958.jpg",
     "static/media/code.jpg": "/portfolio/static/media/code.29b041cd1247c9593b07.jpg",
@@ -26,8 +24,10 @@
     "static/media/liftCad.png": "/portfolio/static/media/liftCad.bb7f4e3f3a80bdd772fb.png",
     "static/media/email.png": "/portfolio/static/media/email.d497d3c011dd676587e6.png",
     "static/media/chemecar.jpg": "/portfolio/static/media/chemecar.61fa0e6742d2217fbc82.jpg",
+    "static/media/macAi.png": "/portfolio/static/media/macAi.d5ca6695002e33f25675.png",
     "static/media/pillDrop.jpg": "/portfolio/static/media/pillDrop.e3101ded53ed9c6cd15b.jpg",
     "static/media/medt.png": "/portfolio/static/media/medt.37c87cced7a8f82ae8e0.png",
+    "static/media/amd.jpg": "/portfolio/static/media/amd.a29d114ec3c5c681abc9.jpg",
     "static/media/coding.png": "/portfolio/static/media/coding.fdf0849bdd737fd36c81.png",
     "static/media/printing.png": "/portfolio/static/media/printing.50b7981c5e1c67012275.png",
     "static/media/MOffice.png": "/portfolio/static/media/MOffice.05126425628f8af5aad2.png",
@@ -42,11 +42,11 @@
     "static/media/bluebackground.webp": "/portfolio/static/media/bluebackground.a01b9a9b6470fbb9cb77.webp",
     "index.html": "/portfolio/index.html",
     "main.b57fad3b.css.map": "/portfolio/static/css/main.b57fad3b.css.map",
-    "main.33a802e0.js.map": "/portfolio/static/js/main.33a802e0.js.map",
+    "main.b9523df9.js.map": "/portfolio/static/js/main.b9523df9.js.map",
     "787.5809834d.chunk.js.map": "/portfolio/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b57fad3b.css",
-    "static/js/main.33a802e0.js"
+    "static/js/main.b9523df9.js"
   ]
 }
