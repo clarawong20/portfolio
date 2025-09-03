@@ -398,7 +398,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .card img{
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem; 
+  border-top-right-radius: 0.5rem;
 }
 
 .card {
@@ -431,13 +434,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .experience-item-cta, .project-item-cta {
-  gap: 0.2rem;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  padding-top: 2px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  white-space: nowrap;    /* keep each tag text on a single line */
+  flex: 0 0 auto;         /* prevent tags from stretching */
+  max-width: 100%;        /* ensure tag never overflows card width */
 }
-
 
 /**tags on experience and projects**/
 .tag-3D {

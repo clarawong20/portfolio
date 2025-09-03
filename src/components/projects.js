@@ -3,7 +3,6 @@ import ostomy from '../assets/img/ostomy.png';
 import hip from '../assets/img/hip implant.png';
 import cpr from '../assets/img/cpr.png';
 import lift from '../assets/img/lift.png';
-import stats from '../assets/img/stats.jpg';
 import winter from '../assets/img/winter.jpg';
 import winterCode from '../assets/img/winterportrait.pde';
 import ostomyPic from '../assets/img/OstomyPic.png';
@@ -14,7 +13,6 @@ import engDraw from '../assets/img/engDraw.png';
 import liftCad from '../assets/img/liftCad.png';
 import lift2 from '../assets/img/lift2.png';
 import pillDrop from '../assets/img/pillDrop.jpg';
-import foodDiscount from '../assets/img/foodDiscount.png';
 
 export const Projects=()=> {
     return (
@@ -23,39 +21,14 @@ export const Projects=()=> {
             <div class='container'>
                 <div class='row'>
 
-                <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
-                            <img src={foodDiscount} alt='website-img' class='card-img-top'></img>
-                            <div class='card-body'>
-                                <h3 class='card-title'>Food Discount App</h3>
-                                <h5 class='card-text'>Personal Project</h5>
-                                <p class='card-date'>July 2023-Ongoing</p>
-                                <div className='project-item-cta'>
-                                    <div className='tag-program'>
-                                        <h7><strong>REACT NATIVE</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>HTML & CSS</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>JAVASCRIPT</strong></h7>
-                                    </div>
-                                    <div className='tag-plan'>
-                                        <h7><strong>DESIGN</strong></h7>
-                                    </div>
-                            </div>   
-                            </div>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#app">More Info</button> 
-                            </div>
-                    </div>
-
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={pillDrop} alt='website-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Pill Drop</h3>
                                 <h5 class='card-text'>Hackathon Project</h5>
                                 <p class='card-date'>January 2023</p>
+                            </div>  
                                 <div className='project-item-cta'>
                                     <div className='tag-arduino'>
                                         <h7><strong>ARDUINO</strong></h7>
@@ -65,40 +38,39 @@ export const Projects=()=> {
                                     </div>
                                     <div className='tag-program'>
                                         <h7><strong>PYTHON</strong></h7>
-                                    </div>
-                            </div>   
+                                    </div> 
                             </div>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pillDrop">More Info</button> 
                             </div>
                     </div>
 
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={code} alt='website-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Personal Portfolio</h3>
                                 <h5 class='card-text'>Personal Project</h5>
                                 <p class='card-date'>December 2022-Ongoing</p>
-                                <div className='project-item-cta'>
-                                    <div className='tag-program'>
-                                        <h7><strong>REACT</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>HTML & CSS</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>JAVASCRIPT</strong></h7>
-                                    </div>
-                                    <div className='tag-plan'>
-                                        <h7><strong>DESIGN</strong></h7>
-                                    </div>
-                            </div>   
                             </div>
+                            <div className='project-item-cta'>
+                                <div className='tag-program'>
+                                    <h7><strong>REACT</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>HTML & CSS</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>JAVASCRIPT</strong></h7>
+                                </div>
+                                <div className='tag-plan'>
+                                    <h7><strong>DESIGN</strong></h7>
+                                </div>
+                            </div>  
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#website">More Info</button> 
                             </div>
                     </div>
 
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                                 <img src={ostomy} alt='ostomy-img' class='card-img-top'></img>
                                 <div class='card-body'>
@@ -117,8 +89,8 @@ export const Projects=()=> {
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ostomy">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={hip} alt='hip-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Revive Hip Implant</h3>
@@ -136,7 +108,7 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hip">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={cpr} alt='medt-img' class='card-img-top'></img>
                             <div class='card-body'>
@@ -158,8 +130,8 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cpr">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 y-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={lift} alt='medt-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>L.I.F.T</h3>
@@ -177,24 +149,8 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#lift">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
-                            <img src={stats} alt='stats-img' class='card-img-top'></img>
-                            <div class='card-body'>
-                                <h3 class='card-title'>Toronto Maple Leafs Stats Searcher</h3>
-                                <h5 class='card-text'>John Fraser Secondary School</h5>
-                                <p class='card-date'>December 2019-March 2020</p>
-                            </div>
-                            <div className='project-item-cta'>
-                                <div className='tag-program'>
-                                    <h7><strong>PYTHON</strong></h7>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#stats">More Info</button> 
-                        </div>
-                    </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={winter} alt='winter-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Winter Portrait</h3>
@@ -212,34 +168,6 @@ export const Projects=()=> {
                 </div>  
             </div>
 
-
-            <div class="modal" id="app" tabindex="-1" aria-labelledby="appLabel" aria-hidden="true">
-                <div class='modal-dialog modal-dialog-scrollable'>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="appLabel"><big>Food Discount App</big><br/><small>Personal Project</small><br/><small>July 2023-Ongoing</small></h5>
-                        
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Using React Native, I created a food discount app. It is currently NOT complete and is a work in progress. The goal of this app is to provide a medium where restaurant owners can post their end-of-the-day discounted food promotions for customers to find.
-                            The goal of this app is to: 
-                            <br/>1. Reduce food waste:  more people will know about and therefore buy food that would otherwise be thrown away at the end of the day
-                            <br/>2. Help people find great food for even better deals (especially needed in this economy!) 
-                            <br/>3. Help restaurants get their name out there (no better time to try a new place than when it's discounted!)
-                        <br/><br/>This project is a great learning experience. This is my first attempt at building an app (I am using React Native for the first time!). And, it allows me to build on my previous JavaScript and HTML/CSS skills. I have also learned more about implementing APIs, which has been a wondering skill to develop! Check back later for future updates!
-                        </p>
-                    </div>
-                    <div class="modal-footer"> 
-                        <a href="https://github.com/clarawong20/discountedFoodApp" target='_blank' rel="noreferrer">
-                        <button type="button" class="btn btn-primary">Github</button></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="modal" id="pillDrop" tabindex="-1" aria-labelledby="pillDropLabel" aria-hidden="true">
                 <div class='modal-dialog modal-dialog-scrollable'>
@@ -454,31 +382,7 @@ export const Projects=()=> {
                     </div>
                 </div>
             </div> 
-
-
-            <div class="modal" id="stats" tabindex="-1" aria-labelledby="statsLabel" aria-hidden="true">
-                <div class='modal-dialog modal-dialog-scrollable'>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="statsLabel"><big>Winter Portrait</big><br/><small>John Fraser Secondary School</small><br/><small>May 2019-June 2019</small></h5>
-                        
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>In this project, I combined my love for the Toronto Maple Leafs with coding. This program, which uses <strong>Python,</strong> allows users to view player and team stats for the Toronto Maple Leafs as well as create a player to player comparison. 
-                        <br/><br/><i>Developed as a final project for my ICS3U class</i>
-                        </p>
-                    </div>
-                    <div class="modal-footer"> 
-                        <a href="https://github.com/clarawong20/torontoMapleLeafs/tree/main" target='_blank' rel="noreferrer">
-                        <button type="button" class="btn btn-primary">Github</button></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-            </div>                
+             
             
             
             
@@ -492,7 +396,7 @@ export const Projects=()=> {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <p>Inspired by a winter portrait I found on pinterest, I recreated it using <strong>Processing</strong>. The recreated portrait features animations such as falling snow, flashing lights, and a movable bird. Users can also interact with the lights using a computer mouse. 
+                        <p>Inspired by a winter portrait I found on Pinterest, I recreated it using <strong>Processing</strong>. The recreated portrait features animations such as falling snow, flashing lights, and a movable bird. Users can also interact with the lights using a computer mouse. 
                         <br/><br/><i>Developed as a final project for my ICS2D class (grade 10 computer science)</i>
                         </p>
                     </div>
