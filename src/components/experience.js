@@ -14,8 +14,8 @@ export const Experience=()=> {
             <h1>My Experience</h1>
             <div class='container'>
                 <div class='row'>
-                <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={amd} alt='amd-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Associate Software Engineer</h3>
@@ -84,6 +84,7 @@ export const Experience=()=> {
                             <div class='card-body'>
                                 <h3 class='card-title'>Software Research Assistant</h3>
                                 <h5 class='card-text'>McMaster Centre for Software Certification (McSCert)</h5>
+                                <p class='card-date'>May 2023-April 2024</p>
                                 <p class='card-date'>May 2023-April 2024</p>
                             </div>
                             <div className='experience-item-cta'>
@@ -167,6 +168,7 @@ export const Experience=()=> {
                             <div class='card-body'>
                                 <h3 class='card-title'>MED-T Outreach Team Member</h3>
                                 <h5 class='card-text'>McMaster University</h5>
+                                <p class='card-date'>September 2021-May 2022</p>
                                 <p class='card-date'>September 2021-May 2022</p>
                             </div>
                             <div className='experience-item-cta'>
@@ -433,9 +435,6 @@ export const Experience=()=> {
                     </div>
                 </div>
             </div>  
-
-
-
         </section>
         
     )
