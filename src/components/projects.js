@@ -21,13 +21,14 @@ export const Projects=()=> {
             <div class='container'>
                 <div class='row'>
 
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={pillDrop} alt='website-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Pill Drop</h3>
                                 <h5 class='card-text'>Hackathon Project</h5>
                                 <p class='card-date'>January 2023</p>
+                            </div>  
                                 <div className='project-item-cta'>
                                     <div className='tag-arduino'>
                                         <h7><strong>ARDUINO</strong></h7>
@@ -37,40 +38,39 @@ export const Projects=()=> {
                                     </div>
                                     <div className='tag-program'>
                                         <h7><strong>PYTHON</strong></h7>
-                                    </div>
-                            </div>   
+                                    </div> 
                             </div>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pillDrop">More Info</button> 
                             </div>
                     </div>
 
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={code} alt='website-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Personal Portfolio</h3>
                                 <h5 class='card-text'>Personal Project</h5>
                                 <p class='card-date'>December 2022-Ongoing</p>
-                                <div className='project-item-cta'>
-                                    <div className='tag-program'>
-                                        <h7><strong>REACT</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>HTML & CSS</strong></h7>
-                                    </div>
-                                    <div className='tag-program'>
-                                        <h7><strong>JAVASCRIPT</strong></h7>
-                                    </div>
-                                    <div className='tag-plan'>
-                                        <h7><strong>DESIGN</strong></h7>
-                                    </div>
-                            </div>   
                             </div>
+                            <div className='project-item-cta'>
+                                <div className='tag-program'>
+                                    <h7><strong>REACT</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>HTML & CSS</strong></h7>
+                                </div>
+                                <div className='tag-program'>
+                                    <h7><strong>JAVASCRIPT</strong></h7>
+                                </div>
+                                <div className='tag-plan'>
+                                    <h7><strong>DESIGN</strong></h7>
+                                </div>
+                            </div>  
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#website">More Info</button> 
                             </div>
                     </div>
 
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                                 <img src={ostomy} alt='ostomy-img' class='card-img-top'></img>
                                 <div class='card-body'>
@@ -89,8 +89,8 @@ export const Projects=()=> {
                                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ostomy">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={hip} alt='hip-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Revive Hip Implant</h3>
@@ -108,7 +108,7 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hip">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
                         <div class='card mt-4'>
                             <img src={cpr} alt='medt-img' class='card-img-top'></img>
                             <div class='card-body'>
@@ -130,8 +130,8 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cpr">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 y-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={lift} alt='medt-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>L.I.F.T</h3>
@@ -149,8 +149,8 @@ export const Projects=()=> {
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#lift">More Info</button> 
                         </div>
                     </div>
-                    <div class='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
-                        <div class='card mt-4'>
+                    <div className='col-12 col-md-6 col-lg-4 d-flex align-items-stretch'>
+                        <div class='card mt-4 w-100'>
                             <img src={winter} alt='winter-img' class='card-img-top'></img>
                             <div class='card-body'>
                                 <h3 class='card-title'>Winter Portrait</h3>
@@ -382,6 +382,7 @@ export const Projects=()=> {
                     </div>
                 </div>
             </div> 
+             
              
             
             

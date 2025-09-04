@@ -55,7 +55,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <h1> {"Hi! I'm Clara Wong "}</h1>
                         <h3><span className="wrap">{text}</span></h3>
-                        <p>An enthusiastic, resilient, and passionate <strong>electrical and biomedical engineering </strong> student at McMaster University. Currently seeking industry experience and opportunities to broaden my knowledge in the technological field, with an interest in front-end and back-end development and biomedical engineering. I look forward to connecting with you!</p>
+                        <p>An enthusiastic, resilient, and passionate <strong>electrical and biomedical engineering </strong> student at McMaster University. Currently seeking industry experience and opportunities to develop and strengthen my engineering knowledge, with an interest in computing systems, software development, and their applications in biomedical engineering. I look forward to connecting with you!</p>
                         <Col xs={8} md={6} xl={3}>
                             <CTA/>
                         </Col>
